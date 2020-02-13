@@ -1,0 +1,7 @@
+<div>
+    {{ count }}
+    <form action="/plus/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="+1" />
+    </form>
+</div>
